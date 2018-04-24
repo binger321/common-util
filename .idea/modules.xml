@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-util.iml" filepath="$PROJECT_DIR$/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/demo.iml" filepath="$PROJECT_DIR$/../demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../erp-svc-goods/erp-svc-goods.iml" filepath="$PROJECT_DIR$/../erp-svc-goods/erp-svc-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../erp-svc-eureka/eureka.iml" filepath="$PROJECT_DIR$/../erp-svc-eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../common-mybatis-generator/mybatis_generator.iml" filepath="$PROJECT_DIR$/../common-mybatis-generator/mybatis_generator.iml" />
+    </modules>
+  </component>
+</project>
