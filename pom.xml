@@ -17,6 +17,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <spring-cloud.version>Dalston.SR1</spring-cloud.version>
         <druid.version>1.0.5</druid.version>
+        <mybatis-spring-boot.version>1.1.1</mybatis-spring-boot.version>
+
     </properties>
 
     <dependencies>
@@ -114,6 +116,13 @@
             <artifactId>spring-context</artifactId>
             <version>4.3.9.RELEASE</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!-- mybatis -->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>${mybatis-spring-boot.version}</version>
         </dependency>
     </dependencies>
 

@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.jdbc.BadSqlGrammarException;
 import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -52,6 +53,9 @@ public class RestExceptionHandler {
         if (ex instanceof NullPointerException) {
             logger.error(ex.getClass().getName(), ex.getMessage());
             return new ServerResponse<>(500, "空指针异常");
+        }
+        if (ex instanceof BadSqlGrammarException) {
+            logger.error(ex.getClass().getName(), ((BadSqlGrammarException) ex).getSQLException());
         }
         logger.error(ex.getClass().getName(), ex.getMessage());
         return new ServerResponse<>(500, "服务器出错，请看后台日志");
