@@ -7,7 +7,6 @@ import java.util.Collection;
 
 /**
  * 解决定时任务无法获取到token
- * Created by zhuzhixian on 2017/08/22.
  */
 public class MyScheduleAuthentication implements Authentication{
 

@@ -9,9 +9,9 @@ public enum BillTypeEnum {
     PRODUCT_ORDER_BILL("productOrder", "PO2018", 14, 0, 99999999),
     PRODUCT_ORDER_DETAIL_BILL("productOrderD", "POD2018", 15, 0, 99999999),
     STOCK_IN_BILL("stockIn", "SI2018", 14, 0, 99999999),
-    STOCK_IN_DETAIL_BILL("stockInDetail", "SID2018", 15, 0, 99999999),
-    STOCK_OUT_BILL("stockIn", "SO2018", 14, 0, 99999999),
-    STOCK_OUT_DETAIL_BILL("stockInD", "SOD2018", 15, 0, 99999999);
+    STOCK_IN_DETAIL_BILL("stockInD", "SID2018", 15, 0, 99999999),
+    STOCK_OUT_BILL("stockOut", "SO2018", 14, 0, 99999999),
+    STOCK_OUT_DETAIL_BILL("stockOutD", "SOD2018", 15, 0, 99999999);
     private String billType;
     private String billPrefix;
     private int length;

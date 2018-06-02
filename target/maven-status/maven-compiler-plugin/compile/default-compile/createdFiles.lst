@@ -1,4 +1,5 @@
 com/binger/common/util/AssertUtil.class
+com/binger/common/schedule/BaseScheduler.class
 com/binger/common/redis/DistributedLockHandler.class
 com/binger/common/apimock/RemoteCtrlFallbackBase.class
 com/binger/common/aop/HttpAspect.class
@@ -13,9 +14,12 @@ com/binger/common/redis/RedisCacheConfig.class
 com/binger/common/redis/RedisCacheConfig$1.class
 com/binger/common/nodeBuilder/Node.class
 com/binger/common/QueryDtoBase.class
+org/springframework/security/oauth2/provider/token/store/MySecurityBreaker.class
+com/binger/common/util/CloneUtil.class
 com/binger/common/exception/BusinessException.class
 com/binger/common/util/DozerUtils.class
 com/binger/common/hystrix/HystrixCredentialsContext.class
+com/binger/common/util/DateUtils.class
 com/binger/common/security/CompositePrincipal$BasicUserPrincipal.class
 com/binger/common/security/AbstractBaseController.class
 com/binger/common/apimock/JsonResponseMock.class
@@ -28,5 +32,6 @@ com/binger/common/redis/Lock.class
 com/binger/common/nodeBuilder/TreeBuilder.class
 com/binger/common/security/CompositePrincipal.class
 com/binger/common/hystrix/MyScheduleAuthentication.class
+com/binger/common/security/BaseSecurityHelperService.class
 com/binger/common/ResponseCode.class
 com/binger/common/Page.class
