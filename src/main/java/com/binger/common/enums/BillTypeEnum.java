@@ -6,12 +6,14 @@ public enum BillTypeEnum {
     ORDER_DETAIL_BILL("orderD", "SOD2018", 15, 0, 99999999),
     RETURN_ORDER_BILL("return", "RO2018", 14, 0, 99999999),
     RETURN_DETAIL_BILL("returnD", "ROD2018", 15, 0, 99999999),
+    PRODUCT_PLAN_BILL("productPlan", "PL2018", 14, 0, 99999999),
+    PRODUCT_PLAN_DETAIL_BILL("productPlanD", "PLD2018", 15, 0, 99999999),
     PRODUCT_ORDER_BILL("productOrder", "PO2018", 14, 0, 99999999),
     PRODUCT_ORDER_DETAIL_BILL("productOrderD", "POD2018", 15, 0, 99999999),
     STOCK_IN_BILL("stockIn", "SI2018", 14, 0, 99999999),
     STOCK_IN_DETAIL_BILL("stockInD", "SID2018", 15, 0, 99999999),
-    STOCK_OUT_BILL("stockOut", "SO2018", 14, 0, 99999999),
-    STOCK_OUT_DETAIL_BILL("stockOutD", "SOD2018", 15, 0, 99999999);
+    STOCK_OUT_BILL("stockOut", "SOB2018", 14, 0, 99999999),
+    STOCK_OUT_DETAIL_BILL("stockOutD", "SOBD2018", 15, 0, 99999999);
     private String billType;
     private String billPrefix;
     private int length;
